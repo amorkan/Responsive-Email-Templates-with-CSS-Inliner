@@ -1,0 +1,38 @@
+{
+    "description": "Responsive Email Templates from Magento Hackathon",
+    "extra": {
+        "map": [
+            [
+                "app/etc/modules/Hackathon_ResponsiveEmail.xml",
+                "app/etc/modules/Hackathon_ResponsiveEmail.xml"
+            ],
+            [
+                "app/code/community/Hackathon/ResponsiveEmail/",
+                "app/code/community/Hackathon/ResponsiveEmail/"
+            ],
+            [
+                "app/design/frontend/base/default/template/responsive_email/",
+                "app/design/frontend/base/default/template/responsive_email/"
+            ],
+            [
+                "app/locale/en_US/template/email/responsive_email/",
+                "app/locale/en_US/template/email/responsive_email/"
+            ],
+            [
+                "lib/TijsVerkoyen",
+                "lib/TijsVerkoyen"
+            ],
+            [
+                "skin/frontend/base/default/css/responsive_email/",
+				"skin/frontend/base/default/css/responsive_email/"
+            ]
+			
+        ]
+    },
+    "name": "hackathon/responsive_email",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "type": "magento-module",
+    "version": "dev-master"
+}
